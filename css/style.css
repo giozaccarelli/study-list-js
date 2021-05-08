@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background: #CDFF8D;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    min-height: 100vh;
+}
+
+.container {
+    background: #fff;
+
+    width: 430px;
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    border-radius: 8px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.45);
+}
+
+.container .firstGroup {
+    padding: 5px;
+}
+
+.container .firstGroup .icon {
+    text-align: center;
+
+    padding: 5px;
+}
+
+.container .firstGroup .text,
+.container .secondGroup .text {
+    text-align: center;
+
+    padding: 5px;
+}
+
+.container .firstGroup .text h1 {
+    color: #8A77FF;
+}
+
+.container .firstGroup .text h2, 
+.container .secondGroup .text h2 {
+    color: #303030;
+    font-weight: 500;
+}
+
+.container .secondGroup {
+    margin-top: -100px;
+    padding: 40px;
+}
+
+.container .secondGroup .text .studyList ul {
+    list-style: none;
+    margin: 5px 0 0 0;
+}
+
+.container .secondGroup .text .studyList ul li {
+    display: inline-block;
+
+    background: #FF8DB6;
+    padding: 5px 20px 5px 20px;
+    margin: 0 10px 0 10px;
+
+    font-weight: 500;
+    color: #fff;
+
+    box-shadow: 4px 2px 5px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+
+    cursor: pointer;
+}
+
+
+.container .secondGroup .text .studyList li:hover{
+    padding: 6px 22px 6px 22px;
+    opacity: 0.8;
+}
